@@ -20,8 +20,7 @@ var isSubsequence = function(s, t) {
         if(s[p1] === t[p2]) {
             p1++;
             p2++;
-        }
-        if(s[p1] !== t[p2]) {
+        } else {
             p2++;
         }
     }
